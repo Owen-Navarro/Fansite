@@ -81,8 +81,8 @@ iframe {
     filter: brightness(1.1);
 }
 
-footer .Contact a {
-    color: white;
+header .bouton a {
+    color: black; 
     font-weight: bold;
     text-decoration: none;
     padding: 10px 15px;
@@ -92,8 +92,26 @@ footer .Contact a {
     transition: all 0.3s ease;
 }
 
-footer .Contact a:hover {
+footer .bouton a {
+    color: black; 
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+header .bouton a:hover {
     background: rgb(57, 118, 3);
+    color: white; 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+footer .bouton a:hover {
+    background: rgb(57, 118, 3);
+    color: white;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
