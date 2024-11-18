@@ -43,7 +43,11 @@ main .image,.box1,.box2,.box3 {
     text-align: center  ;
 }
 
-footer .contact a {
+main .box2 a img{
+    height: 400px;
+}
+
+footer .bouton a {
     color: black;
     text-decoration: none;
     padding: 10px 15px;
@@ -53,7 +57,7 @@ footer .contact a {
     transition: all 0.3s ease;
 }
 
-footer .contact a:hover {
+footer .bouton a:hover {
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
